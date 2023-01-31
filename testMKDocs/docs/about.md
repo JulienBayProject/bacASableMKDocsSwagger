@@ -6,29 +6,29 @@ Hello World
 
 **en gras**
 
-### test zone de retrait
+## test zone de retrait
 
 >ceci est une zone de retrait
 continuité de la zone de retrait sans le retrait
 
-#### test de liste
+## test de liste
 - element list 1
 - element list 2
 - element list 3
 - element list 4
 
-##### list à cocher
+## list à cocher qui fonctionne pas
 
 [X] A
 [ ] B
 [ ] C
 
-###### code
+## code
 `system.out.println("hello world !")`
 
 `system.out.println("hello world !")`
 
-###### lien
+## lien
 
 vers youtube : [Lien](https://www.youtube.com)
 

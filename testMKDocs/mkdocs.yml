@@ -2,3 +2,6 @@ site_name: TestonsMKDOCS
 nav:
   - Home : index.md
   - About : about.md
+
+plugins:
+   - swagger-ui-tag

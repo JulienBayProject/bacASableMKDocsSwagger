@@ -1,0 +1,28 @@
+swagger: "2.0"
+info:
+  title: Send Data API
+  description: A sample API to send data
+  version: "1.0.0"
+host: localhost
+basePath: /api/v1
+schemes:
+  - https
+  - http
+paths:
+  /send-data:
+    post:
+      description: Send data to the API
+      parameters:
+        - name: data
+          in: body
+          required: true
+          schema:
+            type: object
+            properties:
+              data:
+                type: string
+      responses:
+        201:
+          description: Data sent successfully
+        400:
+          description: Bad request
